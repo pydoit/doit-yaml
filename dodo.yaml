@@ -1,0 +1,7 @@
+- task:
+    name: simple
+    cmd: echo "hi"
+
+- task: py.test
+
+- pyflakes: "*.py"

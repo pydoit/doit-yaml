@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-import sys
 from setuptools import setup
 
 setup (
@@ -29,5 +28,5 @@ setup (
     ],
 
     py_modules=['doit_yaml'],
-    install_requires = ['doit', 'pyyaml'],
+    install_requires = ['doit', 'pyyaml', 'doit-py'],
 )
